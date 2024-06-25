@@ -1,6 +1,6 @@
 {
-  "name": "r-aws-temp",
-  "version": "0.1",
+  "name": "@nilsabdi/r-aws-temp",
+  "version": "0.1.0",
   "description": "AWS adapter for Remix",
   "bugs": {
     "url": "https://github.com/nilsabdi/r-aws-temp/issues"
