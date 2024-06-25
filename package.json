@@ -1,0 +1,44 @@
+{
+  "name": "r-aws-temp",
+  "version": "0.1",
+  "description": "AWS adapter for Remix",
+  "bugs": {
+    "url": "https://github.com/nilsabdi/r-aws-temp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nilsabdi/r-aws-temp"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "typings": "dist/index.d.ts",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.125"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.7.1",
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.2"
+  },
+  "peerDependencies": {
+    "@remix-run/node": "^2.9.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist/",
+    "LICENSE.md",
+    "README.md"
+  ]
+}
